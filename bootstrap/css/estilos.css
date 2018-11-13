@@ -1,0 +1,42 @@
+.encabezado{
+    background: chocolate;
+    min-height: 5rem;
+}
+
+.logo{
+    width: 100px;
+}
+
+.nombre{
+    text-align: right;
+    size: 40px;
+}
+
+.informacion{
+    background: #BDC3C7;
+}
+
+.contenido{
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+#area-comentarios{
+    width: 100%;
+    border-radius: 10px;
+}
+
+div a{
+    margin: 10px;
+}
+
+.icon{
+    size: 3x;
+}
+
+.redes-sociales{
+    width: 30px;
+    margin-bottom: 10px;
+}
