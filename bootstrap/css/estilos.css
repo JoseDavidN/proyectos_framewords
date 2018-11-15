@@ -1,6 +1,5 @@
 .encabezado{
     background: chocolate;
-    min-height: 5rem;
 }
 
 .logo{
@@ -23,20 +22,50 @@
     padding: 10px;
 }
 
-#area-comentarios{
-    width: 100%;
+#comentarios{
+    width: 90%;
     border-radius: 10px;
 }
 
-div a{
-    margin: 10px;
-}
-
-.icon{
-    size: 3x;
+.buscar{
+    text-align: center;
 }
 
 .redes-sociales{
     width: 30px;
     margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.barra-busqueda{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.busqueda{
+    text-align: center;
+    min-height: 10rem;
+}
+
+#social{
+    margin-top: 50px;
+}
+
+.navbar{
+    background-color: greenyellow;
+}
+
+.publicidad{
+    width: 250px;
+    border:4px solid chocolate;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.area-comentarios{
+    margin-top: 20px;
+}
+
+.noticia{
+    margin-top: 20px;
 }
