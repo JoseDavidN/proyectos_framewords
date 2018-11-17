@@ -1,18 +1,42 @@
+/*header*/
 .encabezado{
-    background: chocolate;
+    background: #C70039;
 }
 
 .logo{
     width: 100px;
 }
 
-.nombre{
-    text-align: right;
-    size: 40px;
+#social{
+    margin-top: 50px;
 }
 
-.informacion{
-    background: #BDC3C7;
+.redes-sociales{
+    width: 30px;
+    border-radius: 10px;
+}
+
+/*barra de navegacion*/
+.navbar{
+    background-color: black;
+}
+
+nav a{
+    color: red;
+}
+nav a:hover{
+    background: #E91E63 !important;
+    color: black !important;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: black !important;
+    background: red !important;
+}
+
+/*contenido*/
+body{
+    background-color: black;
 }
 
 .contenido{
@@ -22,44 +46,38 @@
     padding: 10px;
 }
 
+.columna1{
+    background: #C70039;
+    color: white;
+}
+
+.columna2{
+    background: #C70039;
+    color: white;
+}
+
+.texto{
+    text-align: justify;
+}
+
 #comentarios{
     width: 90%;
     border-radius: 10px;
 }
 
-.buscar{
-    text-align: center;
-}
-
-.redes-sociales{
-    width: 30px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.barra-busqueda{
-    width: 80%;
-    border-radius: 10px;
-}
-
-.busqueda{
-    text-align: center;
-    min-height: 10rem;
-}
-
-#social{
-    margin-top: 50px;
-}
-
-.navbar{
-    background-color: greenyellow;
-}
-
 .publicidad{
     width: 250px;
-    border:4px solid chocolate;
+    border:4px solid black;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+.right{
+    margin-left: 10px;
+}
+
+.left{
+    margin-right: 10px;
 }
 
 .area-comentarios{
@@ -68,4 +86,49 @@
 
 .noticia{
     margin-top: 20px;
+}
+/*seccion de busqueda*/
+.barra-busqueda{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 10px;
+    color: black;
+}
+
+div.busqueda>p{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.busqueda{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    text-align: center;
+    background: black;
+}
+
+.btn-floating{
+    border-radius: 10px;
+}
+
+.list-group-item:hover{
+    background: white !important;
+    color: black !important;
+}
+
+.list-group-item:active{
+    background: red !important;
+    color: black !important;
+}
+
+div.lista>ul.list-group>a.active{
+    background: red !important;
+    color: black !important;
+}
+
+div.lista>ul.list-group>a{
+    background: black;
+    color: white;
 }
