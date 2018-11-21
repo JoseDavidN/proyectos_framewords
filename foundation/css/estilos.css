@@ -1,38 +1,132 @@
 body{
     margin: 10px;
+    background-image: url(../img/jardin.jpg);
 }
 div{
-    border: 1px dashed black;
     min-height: 6rem;
 }
 
-.contenido{
+.contenido, .barra-lateral{
     min-height: 50rem;
 }
 
+
+/*header*/
 .header{
+    border-bottom: 3px solid red;
+    margin-bottom: 10px;
+    color: white;
     text-align: right;
+}
+
+.titulo-pagina{
+    border-right: 4px solid red;
+}
+
+
+/*columna izquierda-barra menu*/
+.barra-lateral{
+    background-color: rgba(112, 123, 124, .70);
+    color: white;
+}
+div>ul.vertical.menu>li>a{
+    margin-bottom: 3px;
 }
 
 .barra-busqueda{
     margin-top: 20px;
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
 }
-.busqueda{
-    align-content: space-between !important;
+
+.boton{
+    margin-top: 22px;
+    margin-left: 0 !important;
+    padding: 0 !important;
 }
 
 div>ul.vertical.menu>li>a{
-    margin-bottom: 3px;
-}
-div img{
-    width: 100px;
-    border: 5px solid chocolate;
+    background: rgba(244, 67, 54, .70);
 }
 
-ul>a{
+div>ul.vertical.menu>li>a:hover{
+    background: #707B7C;
+}
+
+.contenido-img{
+    width: 100px;
+    border: 5px solid rgba(244, 67, 54, .99);
+}
+
+div>table>tbody>tr{
     text-decoration: none;
     text-align: left !important;
-    margin: 0 !important;
+    color: white;
+}
+div>table>tbody>tr>th:hover{
+     background: red;
+}
+
+div>table>tbody>tr>th>a:hover{
+     color: white;
+}
+
+div>table>tbody>tr>th>a{
+    color: black;
+}
+
+div>table>tbody>tr>th{
+    background: rgba(244, 67, 54, .20);
+}
+
+/*contenido*/
+.titulo, .parrafo {
+    margin-top: 15px;
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.publicaciones{
+    margin-left: 5px !important;
+    background: rgba(244, 67, 54, .70);
+    color: white;
+}
+
+.publicacion{
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.barra-comentarios{
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+.torso{
+    width: 70px;
+    margin-right: 0;
+    padding: 0;
+}
+
+@media (max-width: 900px){
+    .barra-busqueda{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    .publicacion{
+        border-radius: 10px;
+        width: 93%;
+        margin-left: 20px;
+    }
+
+    .contenido-img{
+        margin-left: 20px;
+    }
+    .favoritos{
+        margin-left: 20px;
+    }
+
 }
