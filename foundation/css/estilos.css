@@ -116,6 +116,11 @@ div>table>tbody>tr>th{
         margin-left: 20px;
     }
 
+    .publicaciones{
+        margin-left: 0 !important;
+        margin-bottom: 10px;
+    }
+
     .publicacion{
         border-radius: 10px;
         width: 93%;
