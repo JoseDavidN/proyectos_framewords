@@ -1,0 +1,38 @@
+.logo{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.slogan{
+    margin-left: 10px;
+    color: black;
+    font-size: 25px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 10px;
+}
+.contenido{
+    margin-top: 130px;
+}
+.social{
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.contenedor-central, .contenedor-derecho{
+    margin-left: 20px;
+}
+.left{
+    width: 300px;
+    margin-top: 10px;
+}
+.centro{
+    height: 400px;
+    margin-top: 10px;
+}
+.derecha{
+    width: 300px;
+    margin-top: 10px;
+}
