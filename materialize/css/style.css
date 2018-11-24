@@ -1,4 +1,6 @@
-
+body{
+    background-image: url(../img/carretera-fondo.jpg);
+}
 /*header*/
 .logo{
     border-radius: 20px;
@@ -9,7 +11,6 @@
 
 .slogan{
     margin-left: 10px;
-    color: black;
     font-size: 25px;
 }
 
@@ -26,6 +27,7 @@ li.menu>a:hover{
 .galeria{
     margin-top: 130px;
 }
+
 
 .social{
     border-radius: 10px;
@@ -68,4 +70,20 @@ hr{
 }
 .perfil-usuario{
     text-align: center;
+}
+
+
+@media (max-width: 900px){
+    header{
+        text-align: center;
+    }
+    .logo{
+        border-radius: 20px;
+        width: 200px;
+        margin-top: 10px !important;
+        margin-left: 100px !important;
+    }
+    .galeria{
+        margin-top: 150px;
+    }
 }
