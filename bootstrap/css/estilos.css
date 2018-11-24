@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 /*header*/
 .encabezado{
     background: #C70039;
@@ -35,10 +39,6 @@ nav a:hover{
 }
 
 /*contenido*/
-body{
-    background-color: black;
-}
-
 .contenido{
     margin-top: 0;
     margin-left: 20px;
@@ -60,6 +60,10 @@ body{
     text-align: justify;
 }
 
+.area-comentarios{
+    margin-top: 20px;
+}
+
 #comentarios{
     width: 90%;
     border-radius: 10px;
@@ -78,10 +82,6 @@ body{
 
 .left{
     margin-right: 10px;
-}
-
-.area-comentarios{
-    margin-top: 20px;
 }
 
 .noticia{
@@ -131,4 +131,12 @@ div.lista>ul.list-group>a.active{
 div.lista>ul.list-group>a{
     background: black;
     color: white;
+}
+
+
+
+@media (max-width: 900px){
+    .busqueda{
+        margin-right: 30px;
+    }
 }
