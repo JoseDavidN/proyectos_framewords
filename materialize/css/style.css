@@ -1,4 +1,7 @@
+
+/*header*/
 .logo{
+    border-radius: 20px;
     width: 200px;
     margin-top: 50px;
     margin-left: 50px;
@@ -9,30 +12,60 @@
     color: black;
     font-size: 25px;
 }
+
 .btn{
     display: inline-block;
     border-radius: 10px;
 }
-.contenido{
+
+li.menu>a:hover{
+    background-color: #e53935 !important;
+}
+
+/*galeria*/
+.galeria{
     margin-top: 130px;
 }
+
 .social{
+    border-radius: 10px;
     width: 40px;
     margin-bottom: 20px;
 }
 
-.contenedor-central, .contenedor-derecho{
-    margin-left: 20px;
+.img-galeria{
+    border: 2px solid #e53935;
 }
-.left{
-    width: 300px;
-    margin-top: 10px;
+
+/*contenido*/
+.publicacion{
+    border: 4px solid black;
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 10px;
 }
-.centro{
-    height: 400px;
-    margin-top: 10px;
+
+.comentarios{
+    margin-top: 20px;
 }
-.derecha{
-    width: 300px;
+.barra-comentarios{
+    width: 85% !important;
+}
+
+.chip{
+    margin-left: 10px;
+}
+
+hr{
+    width: 70%;
+}
+
+.circle{
+    border: 1px solid black;
     margin-top: 10px;
+    width: 100px;
+    max-height: 100px;
+}
+.perfil-usuario{
+    text-align: center;
 }
